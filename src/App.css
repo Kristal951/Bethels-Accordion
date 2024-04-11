@@ -1,0 +1,20 @@
+.accordion-item{
+  -webkit-box-shadow: 4px 4px 13px 1px rgba(10,10,10,0.85);
+  -moz-box-shadow: 4px 4px 13px 1px rgba(10,10,10,0.85);
+  box-shadow: 4px 4px 13px 1px rgba(10,10,10,0.85);
+  padding:10px;
+  margin:10px;
+}
+.accordion-title{
+  display:flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.accordion-item:hover{
+  border-left: 3px solid orangered;
+ transition: 1s;
+}
+.accordion-opened{
+  border-left: 3px solid rgb(76, 224, 76);
+ transition: 1s;
+}
