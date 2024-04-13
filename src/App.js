@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import Data from './Data'
+import './App.scss'
 
 const Accordion = ()=>{
   const ApiUrl = 'https://jsonplaceholder.typicode.com/posts'

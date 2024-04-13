@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import './App.css'
+import './App.scss'
 import {FcExpand, FcCollapse} from 'react-icons/fc'
 
 const Data = ({title, body}) => {
@@ -15,10 +15,10 @@ const Data = ({title, body}) => {
     // }
 
   return (
-    <div className={DisplayData ? ' accordion-opened accordion-item ' : 'accordion-item'} onMouseEnter={()=> setDisplayData(true)} onMouseLeave={()=> setDisplayData(false)}>
+    <div className={DisplayData ? ' accordion-opened accordion-item ' : 'accordion-item'}  >
         <div className='accordion-title' onClick={handleDisplay} >
             <h5>{title}</h5>
-            <p>{DisplayData ? <FcExpand size={20}/> : <FcCollapse size={20}/> }</p>          
+            <p>{DisplayData ? <FcExpand size={20} onClick={()=> setDisplayData(true)}/> : <FcCollapse size={20} onClick={()=> setDisplayData(false)}/> }</p>          
         </div>   
      {DisplayData && <p>{body}</p>} 
     </div>
