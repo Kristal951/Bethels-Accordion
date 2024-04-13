@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Bethels-Accordion/static/css/main.cf510534.css",
+    "main.js": "/Bethels-Accordion/static/js/main.db4e6d7c.js",
+    "index.html": "/Bethels-Accordion/index.html",
+    "main.cf510534.css.map": "/Bethels-Accordion/static/css/main.cf510534.css.map",
+    "main.db4e6d7c.js.map": "/Bethels-Accordion/static/js/main.db4e6d7c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf510534.css",
+    "static/js/main.db4e6d7c.js"
+  ]
+}
