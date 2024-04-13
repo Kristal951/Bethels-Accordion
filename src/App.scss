@@ -1,3 +1,5 @@
+@import './index.scss'
+
 .Container{
   
   .accordion-item{
@@ -19,6 +21,15 @@
   .accordion-opened{
     border-left: 3px solid rgb(76, 224, 76);
    transition: 1s;
+  }
+
+  .AccDiv{
+    @include mobile{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      height: 50px;
+    }
   }
 }
 
